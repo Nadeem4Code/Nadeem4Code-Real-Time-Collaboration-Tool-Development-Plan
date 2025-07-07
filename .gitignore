@@ -1,0 +1,54 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+
+# Build output
+/build
+/dist
+/public/build
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Dependency directories (if client is separate)
+client/node_modules/
+server/node_modules/
+
+# React specific
+client/build/
+
+# Coverage reports
+coverage/
+
+# Optional npm cache directory
+.npm
+
+# Docker files (optional)
+docker-compose.override.yml
+
+# Misc
+*.swp
+*.bak
+*.tmp
